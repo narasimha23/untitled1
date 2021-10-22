@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.o">
+    <title>introduction page</title>
+    <style>
+        .container{
+            margin: 0px;
+            width: 100vw;
+            height: 100vh;
+            font-family: "Times New Roman";
+            font-weight: bold;
+
+            display: grid;
+
+            grid-template-rows: 120px 1fr 1fr 100px;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+        .container div{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: blueviolet;
+            background-color: aquamarine;
+        }
+        .header ul li{
+            text-align: right;
+            color: cornflowerblue;
+        }
+        .content-large{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            font-size: 22px;
+            color: whitesmoke;
+            background-color: gold;
+        }
+
+        body{
+            background: white;
+        }
+        .footer{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: lightgreen;
+            text-align: center;
+            font-size: 20px;
+        }
+        .footer ul li{
+            color: ghostwhite;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header" >
+        <h1>
+            HISTORY OF THE INTERNET
+        </h1>
+        <ul><li>
+            <a href="page%203.html">webwar</a>
+        </li></ul>
+    </div>
+
+    <div class="content-large">
+
+        <p>The Internet is one of the biggest and greatest innovations in the history of the world. This used to have human communication through different forms such as e-mails, news groups, chat boxes in the early days. It is generally started in the 1950s and early 1960s. J. C. R. Licklider, who was an American psychologist, has done some great work by introducing the Intergalactic Computer Network. While he was serving in the U.S department of ARPA, his detailed description led to ARPAnet. Later Paul Baran who introduced packet switching techniques which is dividing messages into smaller pieces and sending them individually.
+
+            Lawrence Roberts designed the first packet network system. It is about sending information through packets. ARPAnet eventually got down and the Internet became a blooming technology.
+
+            Marc Andreessen created a web browser mosaic. This is said to be the first widely used web browser. Later Jim Clark joined Marc Andreessen and led to development of mosaic, an easy to use software for browsing the world wide web. Also it is called the Netscape web browser.
+            Louis Pounzi who came up with Cyclades packet switching which isan
+            alternative to the ARPAnet. It is the first network to make hosts
+            responsible for reliable delivery of data and associated with end to end
+            mechanisms. Later it developed in the form of X.25 and unlike
+            ARPAnet it is commonly used for business purposes
+
+            WWW is commonly called the World Wide Web. It is a collection of
+            websites or web pages stored in web servers and connected to local
+            computers through the internet.
+
+            The process of usage of the internet generally shifted to mobiles when
+            they are selling at a rapid growth. Smart mobile is said to be the
+            computer itself because of the features, technology being used in
+            those devices, sensors. We can instantly click a picture with it and can
+            post it on social platforms by using the internet. Communication has
+            become very common when you have a mobile in your hand.
+            Especially in this generation a mobile in the hand can take youanywhere
+            on what you would like to know.
+        </p>
+
+        <a href="internet.html">INTERNET</a>
+
+    </div>
+    <div class="footer">
+        Author:Narasimha Naidu Reddi
+        <ul><li><a href="https://mail.google.com/mail/u/0/#inbox">nr483@njit.edu</a></li></ul>
+    </div>
+</div>
+</body>
+</html>
